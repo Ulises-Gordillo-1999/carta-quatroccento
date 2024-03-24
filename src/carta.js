@@ -268,65 +268,65 @@ export const Comidas = [
     {
       id: 39,
       nombre: "Huevo Frito",
-      descripcion: "...",
+      descripcion: "Salsa sugerida: Fileto",
       precio: 500,
-      categoria: "guarnicion",
+      categoria: "contornos",
     },
     {
       id: 40,
       nombre: "Papas Fritas",
-      descripcion: "...",
+      descripcion: "Salsa sugerida: bolognesa / pesto / caligula",
       precio: 2200,
-      categoria: "guarnicion",
+      categoria: "contornos",
     },
     {
       id: 41,
       nombre: "Papas Españolas",
-      descripcion: "...",
+      descripcion: "Salsa sugerida: mixta",
       precio: 2200,
-      categoria: "guarnicion",
+      categoria: "contornos",
     },
     {
       id: 42,
       nombre: "Pure de Papas",
-      descripcion: "...",
-      precio: 2200,
-      categoria: "guarnicion",
+      descripcion: "Salsa sugerida: verdeo",
+      precio: 6200,
+      categoria: "contornos",
     },
     {
       id: 43,
       nombre: "Pure de Calabaza",
-      descripcion: "...",
-      precio: 2200,
-      categoria: "guarnicion",
+      descripcion: "Salsa sugerida: cuatro quesos",
+      precio: 7900,
+      categoria: "contornos",
     },
     {
       id: 44,
       nombre: "Papas a la Crema",
-      descripcion: "...",
-      precio: 2500,
-      categoria: "guarnicion",
+      descripcion: "Con salsa mixta y queso gratinado",
+      precio: 7500,
+      categoria: "contornos",
     },
     {
       id: 45,
       nombre: "Papas Fritas con Huevo",
-      descripcion: "...",
-      precio: 2500,
-      categoria: "guarnicion",
+      descripcion: "Con salsa mixta y queso gratinado",
+      precio: 7500,
+      categoria: "contornos",
     },
     {
       id: 46,
       nombre: "Panache de Verduras",
-      descripcion: "...",
-      precio: 2800,
-      categoria: "guarnicion",
+      descripcion: "",
+      precio: 7500,
+      categoria: "contornos",
     },
     {
       id: 47,
       nombre: "Tortilla de Papa",
-      descripcion: "...",
-      precio: 5000,
-      categoria: "guarnicion",
+      descripcion: "Con brocoli y pesto",
+      precio: 7500,
+      categoria: "contornos",
     },
     {
       id: 48,
@@ -499,247 +499,275 @@ export const Comidas = [
     {
         id: 72,
         nombre: "Dunas Malbec",
-        descripcion: "...",
-        precio: 5800,
+        descripcion: "",
+        precio: 5000,
         categoria: "vinos-tintos"
     },
     {
         id: 73,
-        nombre: "Entretantos Cabernet/Malbec/Blanco",
-        descripcion: "...",
+        nombre: "Entretantos",
+        descripcion: "Cosecha Catamarqueña",
         precio: 6900,
         categoria: "vinos-tintos"
     },
     {
         id: 74,
         nombre: "Luigui Bosca Malbec",
-        descripcion: "...",
+        descripcion: "",
         precio: 10600,
         categoria: "vinos-tintos"
     },
     {
         id: 75,
         nombre: "Fabre Montmayou",
-        descripcion: "...",
+        descripcion: "Terruño reserva",
         precio: 7000,
         categoria: "vinos-tintos"
     },
     {
         id: 76,
-        nombre: "Chacabuco Dulce Blanco",
-        descripcion: "...",
-        precio: 5500,
+        nombre: "Perro Callejero",
+        descripcion: "",
+        precio: 8000,
         categoria: "vinos-tintos"
     },
     {
         id: 77,
         nombre: "Cordero Con Piel de Lobo",
-        descripcion: "...",
+        descripcion: "",
         precio: 6500,
         categoria: "vinos-tintos"
     },
     {
         id: 78,
-        nombre: "Seismiles Cabernet/Malbec/Syirah",
-        descripcion: "...",
+        nombre: "Seismiles",
+        descripcion: "Cabernet / Malbec / Syirah",
         precio: 4800,
         categoria: "vinos-tintos"
     },
     {
         id: 79,
         nombre: "Alamos Malbec",
-        descripcion: "...",
-        precio: 7000,
+        descripcion: "Bodega Catena Zapata",
+        precio: 7200,
         categoria: "vinos-tintos"
     },
     {
         id: 80,
         nombre: "Nicasia Vineyrad Malbec",
-        descripcion: "...",
+        descripcion: "Bodega Catena Zapata",
         precio: 8400,
         categoria: "vinos-tintos"
     },
     {
         id: 81,
         nombre: "Saint Felicien Malbec",
-        descripcion: "...",
+        descripcion: "Bodega Catena Zapata",
         precio: 10200,
         categoria: "vinos-tintos"
     },
     {
         id: 82,
         nombre: "DV Catena Cabernet Malbec",
-        descripcion: "...",
+        descripcion: "Bodega Catena Zapata",
         precio: 14500,
         categoria: "vinos-tintos"
     },
     {
         id: 83,
         nombre: "El Gran Enemigo",
-        descripcion: "...",
+        descripcion: "Bodega Catena Zapata",
         precio: 39000,
         categoria: "vinos-tintos"
     },
     {
         id: 84,
         nombre: "Angelica Zapata",
-        descripcion: "...",
+        descripcion: "Bodega Catena Zapata",
         precio: 32000,
         categoria: "vinos-tintos"
     },
     {
         id: 85,
-        nombre: "Dv Catena Malbec-Malbec",
-        descripcion: "...",
+        nombre: "Dv Catena Malbec",
+        descripcion: "Bodega Catena Zapata",
         precio: 19900,
         categoria: "vinos-tintos"
     },
     {
         id: 86,
         nombre: "Benjamin Malbec",
-        descripcion: "...",
+        descripcion: "Bodega Catena Zapata",
         precio: 5100,
         categoria: "vinos-tintos"
     },
     {
         id: 87,
         nombre: "Trumpeter Malbec",
-        descripcion: "...",
+        descripcion: "",
         precio: 8600,
         categoria: "vinos-tintos"
     },
     {
+      id: 98,
+      nombre: "Argentino",
+      descripcion: "",
+      precio: 69000,
+      categoria: "vinos-tintos"
+    },
+    {
         id: 88,
         nombre: "Baron B",
-        descripcion: "...",
-        precio: 19000,
+        descripcion: "Con salsa de salmón",
+        precio: 21000,
         categoria: "champagne"
     },
     {
         id: 89,
         nombre: "Salentein",
-        descripcion: "...",
-        precio: 19000,
+        descripcion: "Extra Brut",
+        precio: 9500,
         categoria: "champagne"
     },
     {
         id: 90,
         nombre: "Chandon",
-        descripcion: "...",
-        precio: 7000,
+        descripcion: "Bodega chandón",
+        precio: 9500,
         categoria: "champagne"
     },
     {
         id: 91,
-        nombre: "Gaseosas Linea Coca-Cola",
-        descripcion: "...",
-        precio: 1200,
-        categoria: "gaseosas"
+        nombre: "Gaseosas",
+        descripcion: "Coca cola(comun o zero), sprite, fanta",
+        precio: 1400,
+        categoria: "bebidas sin alcohol"
     },
     {
         id: 92,
-        nombre: "Aguas Saborizadas Aquarius",
-        descripcion: "...",
-        precio: 1200,
-        categoria: "gaseosas"
+        nombre: "Aguas Saborizadas",
+        descripcion: "Aquarius",
+        precio: 1400,
+        categoria: "bebidas sin alcohol"
     },
     {
         id: 93,
-        nombre: "Gaseosas Linea Pepsi, Paso de los toros",
-        descripcion: "...",
-        precio: 1200,
-        categoria: "gaseosas"
+        nombre: "Paso de los toros",
+        descripcion: "Agua tonica o pomelo",
+        precio: 1400,
+        categoria: "bebidas sin alcohol"
     },
     {
         id: 94,
-        nombre: "Agua con gas y sin gas Benedictino",
-        descripcion: "...",
+        nombre: "Agua",
+        descripcion: "con gas y sin gas",
         precio: 1200,
-        categoria: "agua"
+        categoria: "bebidas sin alcohol"
     },
     {
         id: 95,
-        nombre: "Heineken Porron",
-        descripcion: "...",
-        precio: 2000,
-        categoria: "cervezas"
+        nombre: "Heineken",
+        descripcion: "",
+        precio: 4700,
+        categoria: "bebidas con alcohol"
     },
     {
         id: 96,
         nombre: "Imperial",
-        descripcion: "...",
-        precio: 2800,
-        categoria: "cervezas"
+        descripcion: "",
+        precio: 3600,
+        categoria: "bebidas con alcohol"
     },
     {
         id: 97,
         nombre: "Salta Negra",
-        descripcion: "...",
-        precio: 2800,
-        categoria: "cervezas"
-    },
-    {
-        id: 98,
-        nombre: "Heineken",
-        descripcion: "...",
-        precio: 3500,
-        categoria: "cervezas"
+        descripcion: "",
+        precio: 3600,
+        categoria: "bebidas con alcohol"
     },
     {
         id: 99,
-        nombre: "Corona Monja",
-        descripcion: "...",
-        precio: 2000,
-        categoria: "cervezas"
+        nombre: "Corona",
+        descripcion: "",
+        precio: 5200,
+        categoria: "bebidas con alcohol"
     },
     {
         id: 100,
-        nombre: "Corona 710",
-        descripcion: "...",
-        precio: 4100,
-        categoria: "cervezas"
+        nombre: "Corona monjita",
+        descripcion: "",
+        precio: 2500,
+        categoria: "bebidas con alcohol"
     },
     {
         id: 101,
-        nombre: "Stella Artois",
-        descripcion: "...",
-        precio: 3500,
-        categoria: "cervezas"
+        nombre: "Stella",
+        descripcion: "",
+        precio: 4700,
+        categoria: "bebidas con alcohol"
+    },
+    {
+      id: 120,
+      nombre: "Chacabuco Dulce",
+      descripcion: "",
+      precio: 5500,
+      categoria: "vinos-blancos"
+    },
+    {
+      id: 121,
+      nombre: "Seis Miles Chardonay",
+      descripcion: "Cosecha Catamarqueña-Tinogasta",
+      precio: 4800,
+      categoria: "vinos-blancos"
     },
     {
         id: 102,
         nombre: "Saint Felicien Chardonay",
-        descripcion: "...",
-        precio: 7900,
+        descripcion: "",
+        precio: 10200,
         categoria: "vinos-blancos"
     },
     {
         id: 103,
-        nombre: "Entretantos Blanc De Blancs",
-        descripcion: "...",
-        precio: 5000,
+        nombre: "Entretantos Blanc De Blanc",
+        descripcion: "Cosecha Catamarqueña",
+        precio: 6900,
         categoria: "vinos-blancos"
     },
     {
         id: 104,
         nombre: "Nicasia Blanco",
-        descripcion: "...",
-        precio: 6600,
+        descripcion: "Bodega Catena Zapata",
+        precio: 7200,
         categoria: "vinos-blancos"
     },
     {
         id: 105,
         nombre: "Alamo Chardonay",
-        descripcion: "...",
-        precio: 5500,
+        descripcion: "Bodega Catena Zapata",
+        precio: 7200,
         categoria: "vinos-blancos"
     },
     {
         id: 106,
-        nombre: "Fernet Branca",
-        descripcion: "...",
-        precio: 1500,
-        categoria: "fernet"
+        nombre: "Fernet",
+        descripcion: "Medida",
+        precio: 1800,
+        categoria: "aperitivos"
+    },
+    {
+      id: 122,
+      nombre: "Blenders",
+      descripcion: "Medida",
+      precio: 1400,
+      categoria: "aperitivos"
+    },
+    {
+    id: 123,
+    nombre: "Chivas",
+    descripcion: "Medida",
+    precio: 1400,
+    categoria: "aperitivos"
     },
     {
         id: 107,
@@ -833,345 +861,3 @@ export const Comidas = [
         categoria: "postres"
     }
   ];
-
-  /*export const Bebidas = [
-    {
-        id: 72,
-        nombre: "Dunas Malbec",
-        descripcion: "...",
-        precio: 5800,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 73,
-        nombre: "Entretantos Cabernet/Malbec/Blanco",
-        descripcion: "...",
-        precio: 6900,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 74,
-        nombre: "Luigui Bosca Malbec",
-        descripcion: "...",
-        precio: 10600,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 75,
-        nombre: "Fabre Montmayou",
-        descripcion: "...",
-        precio: 7000,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 76,
-        nombre: "Chacabuco Dulce Blanco",
-        descripcion: "...",
-        precio: 5500,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 77,
-        nombre: "Cordero Con Piel de Lobo",
-        descripcion: "...",
-        precio: 6500,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 78,
-        nombre: "Seismiles Cabernet/Malbec/Syirah",
-        descripcion: "...",
-        precio: 4800,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 79,
-        nombre: "Alamos Malbec",
-        descripcion: "...",
-        precio: 7000,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 80,
-        nombre: "Nicasia Vineyrad Malbec",
-        descripcion: "...",
-        precio: 8400,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 81,
-        nombre: "Saint Felicien Malbec",
-        descripcion: "...",
-        precio: 10200,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 82,
-        nombre: "DV Catena Cabernet Malbec",
-        descripcion: "...",
-        precio: 14500,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 83,
-        nombre: "El Gran Enemigo",
-        descripcion: "...",
-        precio: 39000,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 84,
-        nombre: "Angelica Zapata",
-        descripcion: "...",
-        precio: 32000,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 85,
-        nombre: "Dv Catena Malbec-Malbec",
-        descripcion: "...",
-        precio: 19900,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 86,
-        nombre: "Benjamin Malbec",
-        descripcion: "...",
-        precio: 5100,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 87,
-        nombre: "Trumpeter Malbec",
-        descripcion: "...",
-        precio: 8600,
-        categoria: "vinos-tintos"
-    },
-    {
-        id: 88,
-        nombre: "Baron B",
-        descripcion: "...",
-        precio: 19000,
-        categoria: "champagne"
-    },
-    {
-        id: 89,
-        nombre: "Salentein",
-        descripcion: "...",
-        precio: 19000,
-        categoria: "champagne"
-    },
-    {
-        id: 90,
-        nombre: "Chandon",
-        descripcion: "...",
-        precio: 7000,
-        categoria: "champagne"
-    },
-    {
-        id: 91,
-        nombre: "Gaseosas Linea Coca-Cola",
-        descripcion: "...",
-        precio: 1200,
-        categoria: "gaseosas"
-    },
-    {
-        id: 92,
-        nombre: "Aguas Saborizadas Aquarius",
-        descripcion: "...",
-        precio: 1200,
-        categoria: "gaseosas"
-    },
-    {
-        id: 93,
-        nombre: "Gaseosas Linea Pepsi, Paso de los toros",
-        descripcion: "...",
-        precio: 1200,
-        categoria: "gaseosas"
-    },
-    {
-        id: 94,
-        nombre: "Agua con gas y sin gas Benedictino",
-        descripcion: "...",
-        precio: 1200,
-        categoria: "agua"
-    },
-    {
-        id: 95,
-        nombre: "Heineken Porron",
-        descripcion: "...",
-        precio: 2000,
-        categoria: "cervezas"
-    },
-    {
-        id: 96,
-        nombre: "Imperial",
-        descripcion: "...",
-        precio: 2800,
-        categoria: "cervezas"
-    },
-    {
-        id: 97,
-        nombre: "Salta Negra",
-        descripcion: "...",
-        precio: 2800,
-        categoria: "cervezas"
-    },
-    {
-        id: 98,
-        nombre: "Heineken",
-        descripcion: "...",
-        precio: 3500,
-        categoria: "cervezas"
-    },
-    {
-        id: 99,
-        nombre: "Corona Monja",
-        descripcion: "...",
-        precio: 2000,
-        categoria: "cervezas"
-    },
-    {
-        id: 100,
-        nombre: "Corona 710",
-        descripcion: "...",
-        precio: 4100,
-        categoria: "cervezas"
-    },
-    {
-        id: 101,
-        nombre: "Stella Artois",
-        descripcion: "...",
-        precio: 3500,
-        categoria: "cervezas"
-    },
-    {
-        id: 102,
-        nombre: "Saint Felicien Chardonay",
-        descripcion: "...",
-        precio: 7900,
-        categoria: "vinos-blancos"
-    },
-    {
-        id: 103,
-        nombre: "Entretantos Blanc De Blancs",
-        descripcion: "...",
-        precio: 5000,
-        categoria: "vinos-blancos"
-    },
-    {
-        id: 104,
-        nombre: "Nicasia Blanco",
-        descripcion: "...",
-        precio: 6600,
-        categoria: "vinos-blancos"
-    },
-    {
-        id: 105,
-        nombre: "Alamo Chardonay",
-        descripcion: "...",
-        precio: 5500,
-        categoria: "vinos-blancos"
-    },
-    {
-        id: 106,
-        nombre: "Fernet Branca",
-        descripcion: "...",
-        precio: 1500,
-        categoria: "fernet"
-    }
-  ]*/
-
-/*  export const Postres = [
-    {
-        id: 107,
-        nombre: "Helados Cantegrill",
-        descripcion: "Chocolate, frutilla, vainilla, Dulce De leche, Crema americana, Limón y Frutos del bosque [2 bochas]",
-        precio: 2000,
-        categoria: "postres"
-    },
-    {
-        id: 108,
-        nombre: "Flan de Huevo",
-        descripcion: "...",
-        precio: 2000,
-        categoria: "postres"
-    },
-    {
-        id: 109,
-        nombre: "Ensalada De Frutas",
-        descripcion: "...",
-        precio: 2000,
-        categoria: "postres"
-    },
-    {
-        id: 110,
-        nombre: "Panqueque de Dulce de Leche",
-        descripcion: "...",
-        precio: 1800,
-        categoria: "postres"
-    },
-    {
-        id: 111,
-        nombre: "Peras al Vino",
-        descripcion: "...",
-        precio: 1800,
-        categoria: "postres"
-    },
-    {
-        id: 112,
-        nombre: "Dulces Regionales con Helado o Queso",
-        descripcion: "...",
-        precio: 2300,
-        categoria: "postres"
-    },
-    {
-        id: 113,
-        nombre: "Tiramisu",
-        descripcion: "...",
-        precio: 2300,
-        categoria: "postres"
-    },
-    {
-        id: 114,
-        nombre: "Tatin de Manzana",
-        descripcion: "...",
-        precio: 2300,
-        categoria: "postres"
-    },
-    {
-        id: 115,
-        nombre: "Brownie con Helado y Frutos Rojos Bañado en Baileys",
-        descripcion: "...",
-        precio: 2300,
-        categoria: "postres"
-    },
-    {
-        id: 116,
-        nombre: "Brownie con Helado de Mascarpone y Frutos del Bosque",
-        descripcion: "...",
-        precio: 2300,
-        categoria: "postres"
-    },
-    {
-        id: 117,
-        nombre: "Ensalada de Frutas con Helado",
-        descripcion: "...",
-        precio: 2700,
-        categoria: "postres"
-    },
-    {
-        id: 118,
-        nombre: "Panqueque Quattroccento",
-        descripcion: "...",
-        precio: 3100,
-        categoria: "postres"
-    },
-    {
-        id: 119,
-        nombre: "Adicional de dulce de leche o crema",
-        descripcion: "...",
-        precio: 500,
-        categoria: "postres"
-    }
-  ]*/
