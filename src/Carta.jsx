@@ -12,7 +12,7 @@ export default function Carta() {
   useEffect(() => {
     setTimeout(() => {
       setCarta(Comidas);
-    }, );
+    });
   }, []);
 
   const clickCategoria = (e) => {
@@ -25,7 +25,7 @@ export default function Carta() {
   return (
     <div className="h-full bg-slate-100">
       <div
-        className="flex flex-col justify-center items-center"
+        className="flex md:min-w-full lg:min-w-full xl:min-w-full  flex-col justify-center items-center"
         style={{
           background:
             "linear-gradient(90deg, rgba(66,14,19,0.9808298319327731) 16%, rgba(67,67,70,0.7175245098039216) 52%, rgba(66,14,19,1) 75%)",
@@ -40,23 +40,27 @@ export default function Carta() {
         />
       </div>
       <Navbar clickCategoria={clickCategoria} />
-      <div className="grid grid-cols-6 gap-4 mx-5 my-5">
+      <div className="grid place-content-center mx-auto mt-2 sm:max-w-[350px] sm:grid-cols-1 gap-4 md:max-w-[750px] md:gap-4 md:grid-cols-3 lg:max-w-[1000px] lg:grid-cols-4 lg:gap-4 xl:max-w-[1250px] xl:grid-cols-6 xl:gap-4 2xl:max-w-[1650px] 2xl:grid-cols-7 2xl:gap-4">
         {estadoBusqueda
           ? Comidas.map((item) => (
               <div
-                className="flex flex-col justify-start bg-slate-300 rounded-lg"
+                className="flex flex-col h-auto w-[300px] mr-4 my-3 justify-start bg-slate-300 rounded-lg hover:bg-[#420619] hover:scale-105 hover:text-white sm:w-[300px] md:w-auto"
                 key={item.id}
               >
                 <img
                   decoding="async"
-                  height="198px"
-                  width="298px"
+                  height="200px"
+                  width="300px"
                   className="rounded-t-lg"
                   src={CostillaCerdoBarcacoa}
                   alt={`Image de ${item.nombre}`}
                 />
-                <p className="text-xl font-bold text-center">{item.nombre} </p>
-                <p className="text-l text-center">{item.descripcion}</p>
+                <p className="text-lg xl:text-2xl font-bold text-center">
+                  {item.nombre}{" "}
+                </p>
+                <p className="text-l text-center">
+                  <small>{item.descripcion}</small>
+                </p>
                 <p className="text-xl font-semibold text-center ">
                   {item.precio}$
                 </p>
@@ -64,19 +68,25 @@ export default function Carta() {
             ))
           : buscarCategoria.map((item) => (
               <div
-                className="flex flex-col justify-start bg-slate-300 rounded-lg"
+                className="flex flex-col h-auto w-[300px] mr-4 my-3 justify-start bg-slate-300 rounded-lg hover:bg-[#420619] hover:scale-105 hover:text-white sm:w-[300px] md:w-auto"
                 key={item.id}
               >
-                <img
-                  decoding="async"
-                  height="198px"
-                  width="298px"
-                  className="rounded-t-lg "
-                  src={CostillaCerdoBarcacoa}
-                  alt={`Image de ${item.nombre}`}
-                />
-                <p className="text-xl font-bold text-center">{item.nombre} </p>
-                <p className="text-l text-center">{item.descripcion}</p>
+                <div className="flex w-full justify-center">
+                  <img
+                    decoding="async"
+                    height="200px"
+                    width="300px"
+                    className="rounded-t-lg"
+                    src={CostillaCerdoBarcacoa}
+                    alt={`Image de ${item.nombre}`}
+                  />
+                </div>
+                <p className="text-lg xl:text-2xl font-bold text-center">
+                  {item.nombre}{" "}
+                </p>
+                <p className="text-l text-center">
+                  <small>{item.descripcion}</small>
+                </p>
                 <p className="text-xl font-semibold text-center ">
                   {item.precio}$
                 </p>
