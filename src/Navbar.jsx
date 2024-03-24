@@ -25,9 +25,7 @@ function SamplePrevArrow(props) {
   );
 }
 
-
 export default function Navbar({ clickCategoria }) {
-
   var settings = {
     dots: false,
     infinite: true,
@@ -66,7 +64,6 @@ export default function Navbar({ clickCategoria }) {
 
   return (
     <div className="container w-[250px] text-sm mx-auto mt-4 sm:w-[400px] sm:text-sm md:w-[500px] md:text-base lg:w-[750px] lg:text-lg 2xl:w-[1200px] 2xl:text-xl ">
-
       <Slider {...settings} className="mt-2">
         <button
           onClick={clickCategoria}
