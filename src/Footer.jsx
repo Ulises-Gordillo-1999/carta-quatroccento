@@ -53,7 +53,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#420619]  text-white">
-      <div className="grid grid-cols-4 h-80 mx-2 pt-10 text-center">
+      <div className="grid place-content-center items-start h-auto mx-2 pt-10 text-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <div className="flex items-center justify-center ">
           <img height="250px" width="270px" className="h-[250px] w-[270px] object-cover" src={LogoQuattrocento} alt="Footer Logo Quattrocento" />
         </div>
