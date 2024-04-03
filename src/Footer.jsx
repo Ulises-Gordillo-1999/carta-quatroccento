@@ -1,6 +1,6 @@
 import React from "react";
 import Item from "./Item";
-import LogoQuattrocento from "./assets/LOGO-QUATTROCENTO.webp";
+import LogoQuattrocento from "./assets/LOGO-BLANCO.webp";
 
 export default function Footer() {
   const quattrocento_restaurant = [
@@ -10,7 +10,7 @@ export default function Footer() {
     },
     {
       id: 1,
-      titulo: "El Mejor Restaurante de la Ciudad de Catamarca",
+      titulo: "El Mejor Restaurante de Catamarca",
     },
     {
       id: 2,
@@ -52,10 +52,10 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-[#420619]  text-white">
+    <footer className="bg-gray-800  text-white">
       <div className="grid place-content-center items-start h-auto mx-2 pt-10 text-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <div className="flex items-center justify-center ">
-          <img height="250px" width="270px" className="h-[250px] w-[270px] object-cover" src={LogoQuattrocento} alt="Footer Logo Quattrocento" />
+          <img  className=" object-cover" src={LogoQuattrocento} alt="Footer Logo Quattrocento" />
         </div>
         <Item content={quattrocento_restaurant} />
         <Item content={direccion} />
