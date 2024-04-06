@@ -1,13 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Carta from "./Carta.jsx";
-import Footer from './Footer.jsx'
 import "./index.css";
+import Home from "./pages/Home.jsx";
+
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Carta />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/carta" element={<Carta />} />
       </Routes>
     </BrowserRouter>
   );
