@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <div className="bg-stone-800">
-      <nav className="container mx-auto pt-2 flex flex-wrap items-center justify-between">
+      <nav className="container mx-auto pt-2 flex flex-col lg:flex-row items-center justify-between">
         <div className="flex">
           <img src={logo} alt="Logo quattrocento" />
         </div>
@@ -44,7 +44,7 @@ export default function Home() {
             </svg>
           </button>
         </div>
-        <div id="menu" className="flex w-auto flex-col sm:flex-col md:flex-row lg:flex-row justify-evenly space-x-10 text-white">
+        <div id="menu" className="flex w-auto flex-col visible sm:flex-col md:flex-col lg:flex-row justify-evenly lg:space-x-10 text-center text-white">
           <h2 className="text-lg font-bold cursor-pointer hover:text-red-600">
             Restaurant
           </h2>
@@ -80,7 +80,7 @@ export default function Home() {
             className="opacity-70 hover:opacity-100 hover:saturate-150"
           />
           <div className=" py-10">
-            <div className="container mx-auto flex flex-col w-[600px] justify-center">
+            <div className="container mx-auto flex flex-col w-[400px] sm:w-[450px] md:w-[550px] lg:w-[600px] xl:w-[700px] justify-center">
               <h1 className="text-4xl text-center font-bold text-white pb-2">
                 ♠ Quattrocento Restaurant ♠
               </h1>
@@ -100,8 +100,8 @@ export default function Home() {
         <h1 className="text-6xl text-center italic font-bold text-gray-100 py-8">
           ACERCA DE NOSOTROS
         </h1>
-        <div className="flex justify-evenly items-center">
-          <p className="w-[800px] text-base text-gray-100 font-sans text-start ">
+        <div className="flex flex-col justify-evenly items-center xl:flex-row">
+          <p className="w-[400px] text-base text-gray-100 font-sans text-start sm:w-[500px] md:w-[600px] lg:w-[700px] xl:w-[800px] ">
             Desde su origen en 2010, <strong>Quattrocento</strong> ha sido un
             referente en la escena gastronómica, comprometido en brindar la
             mejor experiencia culinaria a nuestros comensales. Nuestra visión es
@@ -169,9 +169,9 @@ export default function Home() {
 
       <section className="pb-16 text-white" id="contacto">
         <h1 className="text-center text-6xl italic font-bold text-white mb-16">
-          CONTACTO
+          CONTACTANOS
         </h1>
-        <div className="flex justify-evenly items-center">
+        <div className="flex flex-col items-center justify-evenly mx-auto space-y-10 md:flex-col lg:flex-row">
           <Form />
           <Mapa />
         </div>
